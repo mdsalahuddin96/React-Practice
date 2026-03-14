@@ -1,0 +1,7 @@
+#generate-otp-button{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 8px;
+}
