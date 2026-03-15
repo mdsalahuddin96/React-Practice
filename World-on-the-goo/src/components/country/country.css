@@ -1,0 +1,34 @@
+.country-card{
+    display: flex;
+    justify-content: center;
+    gap:16px;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.language-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:4px;
+}
+.language{
+    background-color: rgb(122, 126, 124);
+    padding: 2px;
+    border-radius: 5px;
+    color: white;
+}
+.visited{
+    background-color: rgb(178, 255, 251);
+}
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.visited-btn{
+    background-color: rgb(126, 226, 95);
+    color: white;
+    border: none;
+    
+}
