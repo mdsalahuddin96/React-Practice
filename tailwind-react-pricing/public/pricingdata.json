@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": 1500,
+    "duration": "month",
+    "admissionFee": 1000,
+    "popular": false,
+    "description": "Perfect for beginners starting their fitness journey.",
+    "features": [
+      "Full gym access",
+      "Cardio & strength equipment",
+      "Locker facility",
+      "Open gym (no trainer)",
+      "Access during standard hours"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": 2500,
+    "duration": "month",
+    "admissionFee": 1500,
+    "popular": true,
+    "description": "Best for regular gym users who want some guidance.",
+    "features": [
+      "Full gym access",
+      "Cardio & strength equipment",
+      "Locker + shower facility",
+      "2 trainer sessions per month",
+      "Basic diet guideline",
+      "Flexible workout schedule"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": 5500,
+    "duration": "month",
+    "admissionFee": 0,
+    "popular": false,
+    "description": "Ideal for serious fitness transformation.",
+    "features": [
+      "Unlimited gym access",
+      "Personal trainer (weekly sessions)",
+      "Custom workout plan",
+      "Personalized diet plan",
+      "Progress tracking",
+      "Priority support",
+      "Access to all facilities"
+    ]
+  }
+]

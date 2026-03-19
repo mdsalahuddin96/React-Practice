@@ -53,13 +53,13 @@ const Navbar = () => {
             }
           </div>
 
-          <h2>Salauddin</h2>
+          <h2 className="text-2xl font-bold"><a href="#">Fit</a></h2>
         </div>
 
         <div className="hidden md:block">
           <ul className="flex justify-between items-center gap-5">{links}</ul>
         </div>
-        <button className="btn btn-accent">Hire Me</button>
+        <button className="btn btn-accent">Sign In</button>
       </nav>
     </>
   );

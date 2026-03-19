@@ -1,14 +1,21 @@
 
 import './App.css'
-import Header from './components/header/Header'
-
-
+import PricingOptions from './components/pricingOptions/PricingOptions'
+import Navbar from './components/header/Navbar';
+import Hero from './components/header/Hero';
+const pricingPromise=fetch('pricingdata.json').then(res=>res.json())
 function App() {
 
 
   return (
     <>
-      <Header></Header>
+      <header className='bg-gray-900'>
+        <Navbar></Navbar>
+        <Hero></Hero>
+      </header>
+      <main className='bg-gray-900 text-white'>
+        <PricingOptions pricingPromise={pricingPromise}></PricingOptions>
+      </main>
     </>
   )
 }
